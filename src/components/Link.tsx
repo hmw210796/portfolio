@@ -2,7 +2,6 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbMail } from "react-icons/tb";
 import { ImProfile } from "react-icons/im";
 import classes from "./Link.module.css";
-import { Document } from "react-pdf";
 
 const LinksTag = () => {
   return (

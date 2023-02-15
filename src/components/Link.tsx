@@ -1,8 +1,8 @@
-import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbMail } from "react-icons/tb";
 import { ImProfile } from "react-icons/im";
 import classes from "./Link.module.css";
+import { Document } from "react-pdf";
 
 const LinksTag = () => {
   return (
@@ -21,7 +21,7 @@ const LinksTag = () => {
         <FaGithub />
       </a>
       <a
-        href="https://www.linkedin.com/in/mingweiho210796/"
+        href="https://drive.google.com/file/d/1Qv83zb7sFn5YFKtGwD4p3TcZpipygBgE/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >

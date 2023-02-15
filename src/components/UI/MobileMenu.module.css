@@ -1,0 +1,21 @@
+.header {
+  transition: transform 0.3s ease-in;
+}
+
+.list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  height: 100%;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.list a:hover,
+.list a.active {
+  color: rgb(253 224 71);
+}

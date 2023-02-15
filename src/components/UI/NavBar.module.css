@@ -1,0 +1,40 @@
+.header {
+  transition: all 0.3s ease-in;
+}
+
+.list {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.list a:hover,
+.list a.active {
+  color: rgb(253 224 71);
+}
+
+.gradient {
+  background-image: linear-gradient(to right, rgb(64, 120, 224), #ffedd5);
+  transition: background-image 0.5s;
+}
+
+.gradient::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgb(64, 120, 224), #ffedd5);
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.gradient:hover::before {
+  opacity: 1;
+}

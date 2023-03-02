@@ -15,6 +15,9 @@ import {
   SiJavascript,
   SiCss3,
   SiTypescript,
+  SiRedux,
+  SiExpress,
+  SiPhp,
 } from "react-icons/si";
 import LinksTag from "../components/Link";
 
@@ -38,29 +41,64 @@ const HomePage = () => {
         <div className="space-y-4">
           <h2 className="text-4xl text-left  pb-4">Front-end</h2>
           <div className="grid gap-6 grid-auto text-xl ">
-            <Card icon={<FaReact />}>React JS</Card>
-            <Card icon={<TbBrandNextjs />}>Next JS</Card>
-            <Card icon={<SiTailwindcss />}>Tailwind CSS</Card>
-            <Card icon={<SiMaterialui />}>Material UI</Card>
-            <Card icon={<FaWordpress />}>Wordpress</Card>
-            <Card icon={<FaMobileAlt />}>Responsive Design</Card>
+            <Card icon={<FaReact />} rating={4}>
+              React JS
+            </Card>
+            <Card icon={<TbBrandNextjs />} rating={3}>
+              Next JS
+            </Card>
+            <Card icon={<SiRedux />} rating={3}>
+              Next JS
+            </Card>
+            <Card icon={<SiTailwindcss />} rating={3}>
+              Tailwind CSS
+            </Card>
+            <Card icon={<SiMaterialui />} rating={3}>
+              Material UI
+            </Card>
+            <Card icon={<FaWordpress />} rating={2}>
+              Wordpress
+            </Card>
+            <Card icon={<FaMobileAlt />} rating={3}>
+              Responsive Design
+            </Card>
           </div>
         </div>
         <div className="space-y-4">
           <h2 className="text-4xl text-left  pb-4">Back-end</h2>
           <div className="grid gap-6 grid-auto text-xl ">
-            <Card icon={<SiFirebase />}>Firebase</Card>
-            <Card icon={<SiMongodb />}>MongoDB</Card>
-            <Card icon={<FaNodeJs />}>Node JS</Card>
+            <Card icon={<SiFirebase />} rating={3}>
+              Firebase
+            </Card>
+            <Card icon={<SiMongodb />} rating={3}>
+              MongoDB
+            </Card>
+            <Card icon={<FaNodeJs />} rating={2}>
+              Node JS
+            </Card>
+            <Card icon={<SiExpress />} rating={2}>
+              Express JS
+            </Card>
           </div>
         </div>
         <div className="space-y-4">
           <h2 className="text-4xl text-left  pb-4">Languages</h2>
           <div className="grid gap-6 grid-auto text-xl ">
-            <Card icon={<SiJavascript />}>Javascript</Card>
-            <Card icon={<FaHtml5 />}>HTML</Card>
-            <Card icon={<SiCss3 />}>CSS</Card>
-            <Card icon={<SiTypescript />}>Typescript</Card>
+            <Card icon={<SiJavascript />} rating={4}>
+              Javascript
+            </Card>
+            <Card icon={<FaHtml5 />} rating={4}>
+              HTML
+            </Card>
+            <Card icon={<SiCss3 />} rating={4}>
+              CSS
+            </Card>
+            <Card icon={<SiTypescript />} rating={2}>
+              Typescript
+            </Card>
+            <Card icon={<SiPhp />} rating={2}>
+              PHP
+            </Card>
           </div>
         </div>
       </div>

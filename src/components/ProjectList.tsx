@@ -5,6 +5,7 @@ import petStore from "../images/pet-store.png";
 import news from "../images/News-App.png";
 import weather from "../images/weather.png";
 import contact from "../images/contact.png";
+import map from "../images/map-locator.png";
 
 export const projectList = [
   {
@@ -32,14 +33,22 @@ export const projectList = [
   },
   {
     id: "p3",
-    title: "Contact Manager App",
-    link: "https://contact-manager-app-cad0c.web.app/",
-    image: contact,
-    skills: ["React", "Firebase", "Semantic UI"],
-    gitLink: "https://github.com/hmw210796/contact-manager-app",
+    title: "Map Locator App",
+    link: "https://map-locator.netlify.app/",
+    image: map,
+    skills: ["React", "Redux", "Material UI", "Places Autocomplete API"],
+    gitLink: "https://github.com/hmw210796/map-locator",
   },
   {
     id: "p4",
+    title: "Contact Manager App",
+    link: "https://contact-manager-app-cad0c.web.app/",
+    image: contact,
+    skills: ["React", "Firebase", "Semantic UI", "TailwindCSS"],
+    gitLink: "https://github.com/hmw210796/contact-manager-app",
+  },
+  {
+    id: "p5",
     title: "Calculator App",
     link: "https://hmw210796-calculator-app.netlify.app/",
     image: calculator,
@@ -47,7 +56,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/calculator-app",
   },
   {
-    id: "p5",
+    id: "p6",
     title: "Weather App",
     link: "https://hmw210796-weather-app.netlify.app/",
     image: weather,

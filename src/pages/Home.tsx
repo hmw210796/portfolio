@@ -6,7 +6,7 @@ import {
   FaNodeJs,
   FaHtml5,
 } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import {
   SiTailwindcss,
   SiMaterialui,
@@ -18,6 +18,7 @@ import {
   SiRedux,
   SiExpress,
   SiPhp,
+  SiGraphql,
 } from "react-icons/si";
 import LinksTag from "../components/Link";
 
@@ -50,6 +51,9 @@ const HomePage = () => {
             <Card icon={<SiRedux />} rating={3}>
               Next JS
             </Card>
+            <Card icon={<TbBrandReactNative />} rating={3}>
+              React Native
+            </Card>
             <Card icon={<SiTailwindcss />} rating={3}>
               Tailwind CSS
             </Card>
@@ -78,6 +82,9 @@ const HomePage = () => {
             </Card>
             <Card icon={<SiExpress />} rating={2}>
               Express JS
+            </Card>
+            <Card icon={<SiGraphql />} rating={2}>
+              GraphQL
             </Card>
           </div>
         </div>

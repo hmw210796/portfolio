@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem, { Project } from "../components/ProjectItem";
 import calculator from "../images/calculator.png";
+import fuzzypetstore from "../images/fuzzypetstore.png";
 import petStore from "../images/pet-store.png";
 import news from "../images/News-App.png";
 import weather from "../images/weather.png";
@@ -8,6 +9,14 @@ import contact from "../images/contact.png";
 import map from "../images/map-locator.png";
 
 export const projectList = [
+  {
+    id: "p0",
+    title: "Fuzzy Pet Store",
+    link: "https://fuzzypetstore.000webhostapp.com/",
+    image: fuzzypetstore,
+    skills: ["Wordpress", "HTML", "CSS", "Elementor"],
+    gitLink: "https://github.com/hmw210796/pet-hotel",
+  },
   {
     id: "p1",
     title: "Pet Hotel App",

@@ -15,7 +15,7 @@ const MobileNavBar = () => {
   }, [location.pathname]);
 
   return (
-    <div className={`${navbar}  p-[5%] w-full flex lg:hidden top-0 `}>
+    <div className={`${navbar} p-[5%] w-full flex lg:hidden top-0 `}>
       <MobileMenu />
     </div>
   );

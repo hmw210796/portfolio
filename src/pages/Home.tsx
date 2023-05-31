@@ -5,6 +5,7 @@ import {
   FaMobileAlt,
   FaNodeJs,
   FaHtml5,
+  FaElementor,
 } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import {
@@ -19,6 +20,8 @@ import {
   SiExpress,
   SiPhp,
   SiGraphql,
+  SiLaravel,
+  SiElement,
 } from "react-icons/si";
 import LinksTag from "../components/Link";
 
@@ -49,7 +52,7 @@ const HomePage = () => {
               Next JS
             </Card>
             <Card icon={<SiRedux />} rating={3}>
-              Next JS
+              Redux
             </Card>
             <Card icon={<TbBrandReactNative />} rating={3}>
               React Native
@@ -60,9 +63,7 @@ const HomePage = () => {
             <Card icon={<SiMaterialui />} rating={3}>
               Material UI
             </Card>
-            <Card icon={<FaWordpress />} rating={2}>
-              Wordpress
-            </Card>
+
             <Card icon={<FaMobileAlt />} rating={3}>
               Responsive Design
             </Card>
@@ -86,6 +87,9 @@ const HomePage = () => {
             <Card icon={<SiGraphql />} rating={2}>
               GraphQL
             </Card>
+            <Card icon={<SiLaravel />} rating={2}>
+              Laravel
+            </Card>
           </div>
         </div>
         <div className="space-y-4">
@@ -105,6 +109,19 @@ const HomePage = () => {
             </Card>
             <Card icon={<SiPhp />} rating={2}>
               PHP
+            </Card>
+          </div>
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-4xl text-left  pb-4">
+            Content Management System (CMS)
+          </h2>
+          <div className="grid gap-6 grid-auto text-xl ">
+            <Card icon={<FaWordpress />} rating={2}>
+              Wordpress
+            </Card>
+            <Card icon={<FaElementor />} rating={3}>
+              Elementor
             </Card>
           </div>
         </div>

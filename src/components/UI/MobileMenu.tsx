@@ -25,7 +25,7 @@ const MobileMenu = () => {
         className={`text-[3rem] ${iconCSS}`}
       />
       <div
-        className={`${classes.header} ${navCSS} transform -left-[45%] w-[45%] p-[5%] flex flex-col  h-screen text-2xl fixed top-0  bg-gradient-to-r 2 to-orange-100 from-purple`}
+        className={`${classes.header} ${navCSS} transform -left-[45%] w-[45%] p-[5%] flex flex-col  h-screen text-2xl fixed top-0 bg-dark-blue`}
       >
         <RxCross1 className="text-[3rem]" onClick={closeMenuHandler} />
         <ul className={classes.list}>

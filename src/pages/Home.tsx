@@ -21,7 +21,6 @@ import {
   SiPhp,
   SiGraphql,
   SiLaravel,
-  SiElement,
 } from "react-icons/si";
 import LinksTag from "../components/Link";
 

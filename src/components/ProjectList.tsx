@@ -2,6 +2,9 @@ import React from "react";
 import ProjectItem, { Project } from "../components/ProjectItem";
 import calculator from "../images/calculator.png";
 import fuzzypetstore from "../images/fuzzypetstore.png";
+import airselangor from "../images/airselangor.png";
+import razer from "../images/razer.png";
+import tgv from "../images/tgv.png";
 import petStore from "../images/pet-store.png";
 import news from "../images/News-App.png";
 import weather from "../images/weather.png";
@@ -10,7 +13,35 @@ import map from "../images/map-locator.png";
 
 export const projectList = [
   {
-    id: "p0",
+    id: crypto.randomUUID(),
+    title: "Air Selangor",
+    link: "https://www.airselangor.com",
+    image: airselangor,
+    skills: [
+      "NextJS",
+      "React",
+      "SCSS",
+      "Umbraco",
+      "API integration",
+      "Zustand",
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "TGV",
+    link: "https://www.tgv.com.my/home",
+    image: tgv,
+    skills: ["AngularJS", "SCSS", "API integration"],
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Razer Gold Partners",
+    link: "https://partners.gold.razer.com",
+    image: razer,
+    skills: ["Eleventy", "SCSS", "Nunjucks"],
+  },
+  {
+    id: crypto.randomUUID(),
     title: "Fuzzy Pet Store",
     link: "https://fuzzypetstore.000webhostapp.com/",
     image: fuzzypetstore,
@@ -18,7 +49,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/pet-hotel",
   },
   {
-    id: "p1",
+    id: crypto.randomUUID(),
     title: "Pet Hotel App",
     link: "https://pet-hotel-app.vercel.app/",
     image: petStore,
@@ -33,7 +64,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/pet-hotel",
   },
   {
-    id: "p2",
+    id: crypto.randomUUID(),
     title: " News Search App",
     link: "https://mynewspoject.web.app/home",
     image: news,
@@ -41,7 +72,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/find-My-News-App",
   },
   {
-    id: "p3",
+    id: crypto.randomUUID(),
     title: "Map Locator App",
     link: "https://map-locator.netlify.app/",
     image: map,
@@ -49,7 +80,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/map-locator",
   },
   {
-    id: "p4",
+    id: crypto.randomUUID(),
     title: "Contact Manager App",
     link: "https://contact-manager-app-cad0c.web.app/",
     image: contact,
@@ -57,7 +88,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/contact-manager-app",
   },
   {
-    id: "p5",
+    id: crypto.randomUUID(),
     title: "Calculator App",
     link: "https://hmw210796-calculator-app.netlify.app/",
     image: calculator,
@@ -65,7 +96,7 @@ export const projectList = [
     gitLink: "https://github.com/hmw210796/calculator-app",
   },
   {
-    id: "p6",
+    id: crypto.randomUUID(),
     title: "Weather App",
     link: "https://hmw210796-weather-app.netlify.app/",
     image: weather,
@@ -78,7 +109,7 @@ const ProjectList = () => {
   return (
     <ul className="container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 text-center">
       {projectList.map((project: Project) => (
-        <li key={project.id}>
+        <li key={project.title}>
           <ProjectItem projectList={project} />
         </li>
       ))}

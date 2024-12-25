@@ -20,7 +20,7 @@ const LinksTag = () => {
         <FaGithub />
       </a>
       <a
-        href="https://drive.google.com/file/d/1Uer-hbH11fRlYUk6dQclu8u-Us-QoHlc/view?usp=share_link"
+        href="https://drive.google.com/file/d/1UD3V8Ecj5bmanTzjfYSpCaLT-NdHtkIS/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >

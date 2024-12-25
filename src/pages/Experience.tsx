@@ -7,6 +7,17 @@ const ExperiencePage = () => {
       <Timeline
         experience={[
           {
+            date: "June 2023 - Current",
+            title: "Fourtitude.asia",
+            subtitle: "Front-end Developer",
+            icon: "work",
+            description: [
+              "Led a team of front-end developers to successfully launch an app serving over 1 million users across Klang Valley",
+              "Collaborated with cross-functional teams (back-end, design, product) to deliver a user-centric website",
+              "Integrated RESTful APIs and third-party services to enable realtime data synchronization and seamless app functionality.",
+            ],
+          },
+          {
             date: "Oct - Dec 2022",
             title: "Studio20 / The Techy Hub",
             subtitle: "Front-end Developer Intern",

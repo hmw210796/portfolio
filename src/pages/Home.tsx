@@ -7,7 +7,11 @@ import {
   FaHtml5,
   FaElementor,
 } from "react-icons/fa";
-import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
+import {
+  TbBrandAngular,
+  TbBrandNextjs,
+  TbBrandReactNative,
+} from "react-icons/tb";
 import {
   SiTailwindcss,
   SiMaterialui,
@@ -49,6 +53,9 @@ const HomePage = () => {
             </Card>
             <Card icon={<TbBrandNextjs />} rating={3}>
               Next JS
+            </Card>
+            <Card icon={<TbBrandAngular />} rating={3}>
+              Angular JS
             </Card>
             <Card icon={<SiRedux />} rating={3}>
               Redux

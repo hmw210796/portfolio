@@ -20,14 +20,18 @@ const ProjectDetail = () => {
         {skills?.join(", ")}
       </h2>
       <div className="flex text-4xl gap-10 items-center">
-        <button>
-          <a href={link} target="_blank" rel="noreferrer">
-            Visit App
+        {link && (
+          <button>
+            <a href={link} target="_blank" rel="noreferrer">
+              Visit App
+            </a>
+          </button>
+        )}
+        {gitLink && (
+          <a href={gitLink} target="_blank" rel="noreferrer">
+            <FaGithub />
           </a>
-        </button>
-        <a href={gitLink} target="_blank" rel="noreferrer">
-          <FaGithub />
-        </a>
+        )}
       </div>
     </div>
   );

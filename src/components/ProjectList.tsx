@@ -4,6 +4,7 @@ import calculator from "../images/calculator.png";
 import fuzzypetstore from "../images/fuzzypetstore.png";
 import airselangor from "../images/airselangor.png";
 import razer from "../images/razer.png";
+import RWC from "../images/RWC.png";
 import tgv from "../images/tgv.png";
 import petStore from "../images/pet-store.png";
 import news from "../images/News-App.png";
@@ -32,6 +33,12 @@ export const projectList = [
     link: "https://www.tgv.com.my/home",
     image: tgv,
     skills: ["AngularJS", "SCSS", "API integration"],
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Resorts World Cruise - Quickpay APP",
+    image: RWC,
+    skills: ["AngularJS", "Ionic", "SCSS", "API integration"],
   },
   {
     id: crypto.randomUUID(),

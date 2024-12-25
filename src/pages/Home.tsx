@@ -24,6 +24,7 @@ import {
   SiExpress,
   SiPhp,
   SiGraphql,
+  SiIonic,
   SiLaravel,
 } from "react-icons/si";
 import LinksTag from "../components/Link";
@@ -56,6 +57,9 @@ const HomePage = () => {
             </Card>
             <Card icon={<TbBrandAngular />} rating={3}>
               Angular JS
+            </Card>
+            <Card icon={<SiIonic />} rating={3}>
+              Ionic
             </Card>
             <Card icon={<SiRedux />} rating={3}>
               Redux

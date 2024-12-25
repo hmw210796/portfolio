@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export type Project = {
   title: string;
-  link: string;
+  link?: string;
   id: string;
   image: string;
   skills: string[];

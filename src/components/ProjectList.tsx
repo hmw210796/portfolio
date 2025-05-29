@@ -114,7 +114,7 @@ export const projectList = [
 
 const ProjectList = () => {
   return (
-    <ul className="container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 text-center">
+    <ul className="container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 text-center mx-auto">
       {projectList.map((project: Project) => (
         <li key={project.title}>
           <ProjectItem projectList={project} />

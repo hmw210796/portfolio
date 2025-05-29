@@ -12,9 +12,10 @@ const ExperiencePage = () => {
             subtitle: "Front-end Developer",
             icon: "work",
             description: [
-              "Led a team of front-end developers to successfully launch an app serving over 1 million users across Klang Valley",
-              "Collaborated with cross-functional teams (back-end, design, product) to deliver a user-centric website",
-              "Integrated RESTful APIs and third-party services to enable realtime data synchronization and seamless app functionality.",
+              "Led a team of front-end developers in an Agile environment to successfully launch an app/website serving over 1 million users across Klang Valley, while utilizing a Kanban board (Jira, Trello) to track progress, manage sprints, and ensure timely delivery of features.",
+              "Collaborated with cross-functional teams (back-end, design, product) to deliver a user-centric website by conducting user interviews, analyzing feedback, and defining feature requirements that improved engagement and retention.",
+              "Defined and prioritized product features based on user feedback, market trends, and business objectives, working closely with stakeholders to ensure alignment with company goals.",
+              "Projects: Air Selangor, TGV Cinemas, Resorts World Cruise Payment App, Razor Gold Partner",
             ],
           },
           {
